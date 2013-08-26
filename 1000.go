@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 func main() {
-	var a int
-	var b int
+    var a int
+    var b int
 
-	fmt.Scan(&a)
-	fmt.Scan(&b)
-	fmt.Println(a + b)
+    fmt.Scan(&a)
+    fmt.Scan(&b)
+    fmt.Println(a + b)
 }
