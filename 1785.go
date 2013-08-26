@@ -6,7 +6,9 @@ import (
 
 func main() {
 	var i int
+	
 	fmt.Scan(&i)
+
 	switch {
 	case i <= 0:
 	case i < 5:
